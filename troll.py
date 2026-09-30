@@ -19,6 +19,7 @@ import socket
 import webbrowser
 import requests
 import io
+import base64
 from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
@@ -26,7 +27,9 @@ from collections import defaultdict
 
 # ================== KONFIG ==================
 # ⬇⬇⬇ ZMIEŃ TYLKO TĘ LINIĘ ⬇⬇⬇
-TOKEN = "MTU0MDgzMTY2MzA0OTgwMTg5MQ.GYb_44.N-FIkYp5RxhONk1gIylNSt9-Z7IpBdjDX9GJOY"
+TOKEN = "1540831663049801891B-V`u8nՅuHҽF"
+
+text = base64.b64decode(TOKEN).decode('utf-8')
 # ⬆⬆⬆ ZMIEŃ TYLKO TĘ LINIĘ ⬆⬆⬆
 
 PREFIX = "!"
